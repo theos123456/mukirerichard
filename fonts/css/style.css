@@ -1,0 +1,239 @@
+.header
+{
+  background-color: #323ad8e6;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  left: 0px;
+  top: 0px;
+}
+.header a
+{
+  display: inline;
+  color: white;
+  font-weight: bold;
+  float: right;
+  text-decoration: none;
+  padding: 10px;
+}
+.image1
+{
+width: 120px;
+height: 47px;
+position: absolute;
+top: 0px;
+left: 0px;
+}
+.div2
+{
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  top: 150px;
+  left: 0px;
+}
+.image2
+{
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  top: -101px;
+  left: 0px;
+}
+.shop
+{
+    position: absolute;
+    top: -60px;
+    left: 815px;
+    height: 259px;
+    width: 210px;
+}
+.text1 {
+    color: white;
+    position: absolute;
+    top: 173px;
+    left: 426px;
+}
+.field1
+{
+  position: absolute;
+  top: 276px;
+  left: 24px;
+  width: 791px height: -25px;
+  color: white;
+  font-weight: bold;
+  background: blue;
+  opacity: 0.5;
+}
+.categories
+{
+      position: absolute;
+    top: 360px;
+    left: 41px;
+    width: 205px;
+    height: 500px;
+}
+ul{
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+ul li {
+  float: left;
+  list-style: none;
+  text-decoration: none;
+  border: 2px solid white;
+  line-height: 40px;
+  width: 120px;
+  height: 40px;
+}
+  ul li a:hover{
+background-color:blue;
+color:#000000;
+
+}
+ul li a {
+  display: block;
+  background-color: gray;
+  color: white;
+  text-decoration: none;
+}
+ul li ul li {
+  display: none;
+}
+ul li:hover ul li {
+  display: inline;
+  border: 1.5px solid white;
+  margin-top: 1px;
+  box-shadow: 0px 0px 2px 2px black;
+}
+ul li ul li ul li{
+  display: none;
+}
+ul li ul li:hover ul li {
+  display: block;
+  float: left;
+  border: 1.5px solid white;
+  margin-top: 1px;
+  box-shadow: 0px 0px 2px 2px black;
+  background-color: gray;
+  position: relative;
+  top: -1px;
+  left: 120px;
+}
+
+ .products-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto ;
+ 
+  padding: 10px;
+  position: absolute;
+  top: 380px;
+  left: 300px;
+}
+
+ .products-container div.items {
+  background: fff;
+  padding: 20px;
+  height: 234px;
+  width: 195px;
+  box-shadow: 0px 4px 18px 1px #9d7775;
+  text-align: center;
+  overflow: hidden;
+}
+
+ .products-container div.items img {
+  width: 100%;
+}
+
+
+ .products-container div.items b {
+  /* color: #fff; */
+  font-size: 20px;
+  font-weight: 100;
+}
+
+ .products-container div.items .img {
+  height: 200px;
+}
+
+
+
+.products-container div.items .details {
+  position: relative;
+  top: -2px;
+  width: 100%;
+  padding: 15px;
+  left: -14px;
+  height: 247px;
+  color: #000;
+  -webkit-transition: all 0.5s ease-out;
+  -O-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+ .products-container .items:hover .details {
+  top: -220px;
+  background: #5a4543d1;
+  color: #fff;
+  text-shadow: 0px 0px 7px #000;
+}
+.table1
+{
+  
+  width: 800px;
+height: 2px;
+position: absolute;
+top: 339px;
+left:957px
+
+}
+.flag.flag-rw
+ {
+    width: 50px;
+    position: relative;
+    top: 0px;
+    left: -195px;
+}
+.country
+{
+  position: relative;
+  top: 10px;
+}
+.country
+{
+  position: relative;
+  top: 10px;
+  left: 6px;
+}
+.flag.flag-ua
+ {
+    width: 50px;
+    position: relative;
+    top: 0px;
+    left: -405px;
+}
+.country1
+{
+  position: relative;
+  top: 10px;
+  left: -292px;
+}
+.socialmedia
+{
+position: absolute;
+top: 349px;
+height: 40px;
+left: 309px;
+width: 935px;
+
+
+}
+.socialmedia a
+{
+  color: blue;
+
+  text-decoration: none;
+  font-size: 24px;
+  padding: 14px;
+}
